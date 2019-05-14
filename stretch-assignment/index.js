@@ -18,7 +18,7 @@ for(let i = 0; i <= block.length; i++) {
     })
     block[i].addEventListener('mousedown', function() {
         interval = window.setInterval(function() {
-            xIndes[block[i].classList[i]]++;
+            xIndex[block[i].classList[i]]++;
             console.log(xIndex)
             TweenMax.to(`.${block[i].classList[1]}`, 0.5, {
                 x:xIndex[block[i].classList[1]],
